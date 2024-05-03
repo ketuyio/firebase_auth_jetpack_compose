@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SalesApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".DetailsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_details"
+            android:theme="@style/Theme.SalesApplication" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/Theme.SalesApplication" />
+        <activity
+            android:name=".ChairsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_chairs"
+            android:theme="@style/Theme.SalesApplication" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_show3"
+            android:theme="@style/Theme.SalesApplication" />
+        <activity
+            android:name=".ShowActivity3"
+            android:exported="false"
+            android:label="@string/title_activity_show2"
+            android:theme="@style/Theme.SalesApplication" />
+        <activity
+            android:name=".ShowActivity2"
+            android:exported="false"
+            android:label="@string/title_activity_show"
+            android:theme="@style/Theme.SalesApplication" />
+        <activity
+            android:name=".ShowActivity"
+            android:exported="false"
+            android:label="@string/title_activity_lead"
+            android:theme="@style/Theme.SalesApplication" />
+        <activity
+            android:name=".LeadActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.SalesApplication">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

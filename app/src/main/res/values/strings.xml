@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SalesApplication</string>
+    <string name="title_activity_lead">LeadActivity</string>
+    <string name="title_activity_show">ShowActivity</string>
+    <string name="title_activity_show2">ShowActivity2</string>
+    <string name="title_activity_show3">ShowActivity3</string>
+    <string name="title_activity_chairs">ChairsActivity</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_details">DetailsActivity</string>
+</resources>
